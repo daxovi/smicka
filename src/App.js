@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import CMS from './CMS';
+import Header from './Header';
+import MDReader from './components/MDReader';
 
 function App() {
   return (
     <div className="App">
-      <CMS />
+      <Header />
+      <MDReader file="index.md" />
+
     </div>
   );
 }
