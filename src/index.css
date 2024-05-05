@@ -17,7 +17,6 @@ h1 {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 700;
-  text-shadow: var(--color-volt) 1px 1px 0px;
   margin: 20px 0px 8px;
 }
 
@@ -26,6 +25,11 @@ h2, h3, h4 {
   text-transform: uppercase;
   font-weight: 700;
   margin: 20px 0px 8px;
+}
+
+h1 em {
+  font-style: normal;
+  text-shadow: var(--color-volt) -2px 2px 0px;
 }
 
 p {
@@ -76,12 +80,15 @@ nav li {
   text-transform: uppercase;
   color: var(--color-black);
   font-weight: 700;
+  outline: 2px solid var(--color-volt);
+
+  background-color: white;
+  translate: 0px;
   transition: all ease-out 0.1s;
-  border: var(--color-volt) 2px solid;
-  offset: 0px;
 }
 
 nav li:hover {
   background-color: var(--color-volt);
-  transform: translateX(-6px) translateY(-1px);
+  translate: -2px;
+  transition: all ease-out 0.05s;
 }
