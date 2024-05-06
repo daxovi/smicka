@@ -4,7 +4,7 @@ import Menu from './Menu'
 const Footer = () => {
   return (
     <footer>
-            <div className='container'>Footer</div>
+            <div className='container'>instagram, facebook, whatsapp</div>
     </footer>
   )
 }

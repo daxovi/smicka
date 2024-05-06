@@ -21,7 +21,8 @@ const Header = (props) => {
       
         <div className="contact">
         <div className="container">
-          Telefon: +420 777 072 633
+          <h1>Elektroinstalace Smička</h1>
+          <p>Telefon: +420 777 072 633</p>
         </div>
       </div>
     <div className='container'>

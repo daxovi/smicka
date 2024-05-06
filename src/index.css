@@ -74,9 +74,25 @@ code {
 /* MARK: HEADER */
 header .contact {
   background-color: var(--color-volt);
-  padding: 0.5em;
+  padding: 1em;
   text-align: right;
   font-size: 0.9em;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+} 
+
+header h1 {
+  text-align: left;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+  line-height: normal;
 }
 
 header img {
@@ -122,8 +138,9 @@ nav li:hover {
 
 /* MARK: FOOTER */
 footer {
+  text-align: right;
   color: var(--color-easy);
   background: var(--color-black);
   margin-top: 4em;
-  padding: 2em 0;
+  padding: 1em 0;
 }
