@@ -16,21 +16,21 @@ body {
 }
 
 /* MARK: MARKDOWN */
-h1 {
+h1, h2 {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 700;
   margin: 20px 0px 8px;
 }
 
-h2, h3, h4 {
+h3, h4 {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 700;
   margin: 3em 0px 8px;
 }
 
-h1 em {
+h2 em {
   font-style: normal;
   text-shadow: var(--color-volt) -2px 2px 0px;
 }

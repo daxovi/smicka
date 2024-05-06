@@ -1,4 +1,4 @@
-# Elektroinstalace *Smička*
+## Elektroinstalace *Smička*
 Vítejte na stránkách firmy Smička Elektroinstalace, vašeho partnera pro profesionální elektroinstalace a bezpečnostní řešení jak v domácnostech, tak i v průmyslových prostředích. Jsme specialisté na širokou škálu elektroinstalačních služeb, včetně instalace elektro rozvodů, osvětlení, průmyslových zařízení, a kamerových systémů.
 
 S více než dvaceti lety zkušeností jsme si vydobyli reputaci spolehlivého a kvalitního dodavatele elektroinstalačních řešení. Naši kvalifikovaní technici jsou vybaveni nejmodernějšími technologiemi a postupy, aby splnili vaše požadavky s maximální profesionalitou a precizností.
