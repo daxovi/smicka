@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 html {
   --color-black: #2E2E2E;
@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-black);
@@ -85,6 +85,12 @@ nav li {
   background-color: white;
   translate: 0px;
   transition: all ease-out 0.1s;
+
+  cursor: pointer;
+}
+
+nav li.active {
+  background-color: var(--color-volt);
 }
 
 nav li:hover {

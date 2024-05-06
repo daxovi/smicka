@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './logo.svg';
+import logo from '../logo.svg';
 
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
       
         <div className="contact">
         <div className="container">
-          Telefon: 123 456 789
+          Telefon: +420 777 072 633
         </div>
       </div>
     <div className='container'>
