@@ -3,6 +3,7 @@
 html {
   --color-black: #2E2E2E;
   --color-volt: #E6FF00;
+  --color-easy: #f7f7f7;
 }
 
 body {
@@ -11,8 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-black);
   margin: 0;
+  background-color: var(--color-black);
 }
 
+/* MARK: MARKDOWN */
 h1 {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -24,7 +27,7 @@ h2, h3, h4 {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 20px 0px 8px;
+  margin: 3em 0px 8px;
 }
 
 h1 em {
@@ -43,10 +46,24 @@ ul {
   list-style-type: "- ";
 }
 
+/* MARK: CONTAINER */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  opacity: 100%;
+  transform: translateY(0);
+  transition: all ease-out 0.2s;
+}
+
+.App {
+  background-color: var(--color-easy);
+}
+
+.animate {
+  transform: translateY(-5px);
+  opacity: 0%;
+  transition: all ease-out 0.01s;
 }
 
 code {
@@ -82,19 +99,31 @@ nav li {
   font-weight: 700;
   outline: 2px solid var(--color-volt);
 
-  background-color: white;
+  background-color: none;
   translate: 0px;
-  transition: all ease-out 0.1s;
+  transition-property: background-color, translate;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
 
   cursor: pointer;
 }
 
 nav li.active {
-  background-color: var(--color-volt);
+  background-color: white;
+  outline: none;
+  transition: background-color ease-in 0.1s;
 }
 
 nav li:hover {
   background-color: var(--color-volt);
   translate: -2px;
   transition: all ease-out 0.05s;
+}
+
+/* MARK: FOOTER */
+footer {
+  color: var(--color-easy);
+  background: var(--color-black);
+  margin-top: 4em;
+  padding: 2em 0;
 }
