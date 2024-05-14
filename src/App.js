@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import { useState, useEffect } from 'react';
@@ -19,7 +18,7 @@ function App() {
     setIsLoading(true)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 200); // Zde můžete nastavit čas, po kterém bude animace odebrána
+    }, 400); // Zde můžete nastavit čas, po kterém bude animace odebrána
 
     return () => clearTimeout(timer);
   }, [selectedItem])

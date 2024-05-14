@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../logo.svg';
-import logoalternate from '../logo-alternate.svg';
+import logo from '../img/logo.svg';
+import logoalternate from '../img/logo-alternate.svg';
 import { useState, useEffect } from "react";
 
 
