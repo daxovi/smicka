@@ -3,7 +3,9 @@ import MDReader from '../components/MDReader'
 
 const Reference = () => {
   return (
+    <div className="ref">
     <MDReader file="reference.md" />
+    </div>
   )
 }
 
