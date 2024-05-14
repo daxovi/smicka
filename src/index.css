@@ -153,6 +153,7 @@ footer {
 .ref .markdown-container {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1px auto 1px auto 1px auto 1px auto;
   gap: 1em;
 }
 
@@ -162,15 +163,22 @@ footer {
   grid-column-end: 3;
 }
 
-.ref p:first-of-type {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
 .ref img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
+}
+
+.ref p {
+  margin: 0;
+}
+
+.ref p:has(img) {
+  grid-row-end: span 2;
+}
+
+.ref h3 {
+  margin: 0;
 }
 
 /* MARK: MEDIA */
