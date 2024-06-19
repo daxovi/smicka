@@ -1,14 +1,21 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+import "./Menu.css"
 
-const Menu = ({ onItemClick, activePage }) => {
+const Menu = () => {
     return (
         <div className='container'>
             <nav>
-                <ul>
-                    <li className={activePage === 0 ? 'active' : ''} onClick={() => onItemClick(0)}>Naše služby</li>
-                    <li className={activePage === 1 ? 'active' : ''} onClick={() => onItemClick(1)}>Reference</li>
-                    <li className={activePage === 2 ? 'active' : ''} onClick={() => onItemClick(2)}>Kontakt</li>
-                </ul>
+            <NavLink exact to="/" activeClassName="active">
+        Služby
+      </NavLink>
+      <NavLink to="/reference" activeClassName="active">
+        Reference
+      </NavLink>
+      <NavLink to="/kontakt" activeClassName="active">
+        Kontakt
+      </NavLink>
+
             </nav>
         </div>
     )

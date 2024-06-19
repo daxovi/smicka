@@ -15,50 +15,9 @@ body {
   background-color: var(--color-black);
 }
 
-/* MARK: MARKDOWN */
-h1, h2 {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 20px 0px 8px;
-}
 
-h3, h4 {
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 3em 0px 8px;
-}
 
-h2 em {
-  font-style: normal;
-  text-shadow: var(--color-volt) -2px 2px 0px;
-}
 
-p {
-  font-size: 0.9em;
-  line-height: 1.5em;
-  margin: 0.8em 0;
-}
-
-ul {
-  padding-left: 1.5em;
-  list-style-type: "- ";
-}
-
-/* MARK: CONTAINER */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  opacity: 100%;
-  transform: translateY(0);
-  transition: all ease-out 0.2s;
-}
-
-.App {
-  background-color: var(--color-easy);
-}
 
 .animate {
   transform: translateY(-5px);
@@ -97,43 +56,6 @@ header p {
 
 header img {
   margin-top: -4px
-}
-
-/* MARK: NAV */
-nav ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-nav li {
-  display: inline-block;
-  padding: 1em 3em;
-  margin-right: 1em;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  color: var(--color-black);
-  font-weight: 700;
-  outline: 2px solid var(--color-volt);
-
-  background-color: none;
-  translate: 0px;
-  transition-property: background-color, translate;
-  transition-duration: 0.1s;
-  transition-timing-function: ease-out;
-
-  cursor: pointer;
-}
-
-nav li.active {
-  background-color: white;
-  outline: none;
-  transition: background-color ease-in 0.1s;
-}
-
-nav li:hover {
-  background-color: var(--color-volt);
-  translate: -2px;
-  transition: all ease-out 0.05s;
 }
 
 /* MARK: FOOTER */
