@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "route": "/static/*",
+            "allowedRoles": [
+                "anonymous"
+            ]
+        },
+        {
+            "route": "/*",
+            "rewrite": "/"
+        }
+    ]
+}
