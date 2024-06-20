@@ -3,21 +3,49 @@
     flex-direction: column;
     gap: 2.5em;
 }
+
+.services--content ul,
+.services--content ol {
+    margin: 0px;
+}
+
+.services--content h3 {
+    margin-top: 1em;
+}
+
+.services--content ol>li {
+    margin-bottom: 1em;
+}
+
+.services--content li {
+    margin: 0.2em 0;
+}
+
+.services--content h3:first-child {
+    margin-top: 0em;
+}
+
 .services--content-volt {
-    width: 80%;
+    width: 75%;
     background-color: var(--color-volt);
+    padding: 1.5em;
+}
+
+.services--content-white {
+    width: 75%;
+    background-color: white;
     padding: 1.5em;
 }
 
 .services--category {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     column-gap: 2em;
 }
 
 .services--category--tile {
     display: flex;
-    padding: 1em;
+    padding: 0.5em;
     aspect-ratio: 1;
     background-color: aqua;
     align-items: flex-end;
@@ -28,13 +56,19 @@
     color: var(--color-volt);
     font-weight: 600;
     font-size: 0.9em;
-    box-shadow: 0px 0px black;
-    transition: box-shadow ease-out 0.1s;
+    box-shadow: 0px 0px var(--color-volt);
+    transition: all ease-out 0.1s;
+    text-decoration: none;
 }
 
 .services--category--tile:hover {
-    box-shadow: 5px 5px black;
-    transition: box-shadow ease-out 0.2s;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px var(--color-volt);
+    transition: all ease-out 0.2s;
+}
+
+.services--category a {
+    text-decoration: none;
 }
 
 #bezpecnostnizarizeni {
@@ -47,6 +81,7 @@
 
 #elektroinstalacevdomech {
     background-image: url("../img/tiles/elektroinstalacevdomech.jpg");
+    hyphens: auto;
 }
 
 #zahranicnispoluprace {
@@ -55,4 +90,20 @@
 
 #instalaceazprovoznenilinek {
     background-image: url("../img/tiles/instalaceazprovoznenilinek.jpg");
+}
+
+#smarthomeinstalace {
+    background-image: url("../img/tiles/smarthomeinstalace.jpg");
+}
+
+.services--gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.services--gallery img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
 }

@@ -2,6 +2,7 @@
     background-color: var(--color-easy);
     background-image: url("./img/bg.jpg");
     background-position: center top;
+    background-repeat: no-repeat;
 }
 
 /* MARK: CONTAINER */

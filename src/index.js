@@ -11,6 +11,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import Elektroinstalacevdomech from './pages/Elektroinstalacevdomech';
+import Bezpecnostnizarizeni from './pages/Bezpecnostnizarizeni';
+import Instalaceazprovoznenilinek from './pages/Instalaceazprovoznenilinek';
+import Elektroinstalacevprumyslu from './pages/Elektroinstalacevprumyslu';
+import Smarthomeinstalace from './pages/Smarthomeinstalace';
+import Zahranicnispoluprace from './pages/Zahranicnispoluprace';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +30,30 @@ const router = createBrowserRouter([
   {
     path: "reference/",
     element: <App><Reference /></App>,
+  },
+  {
+    path: "elektroinstalace-v-domech/",
+    element: <App><Elektroinstalacevdomech /></App>,
+  },
+  {
+    path: "bezpecnostni-zarizeni/",
+    element: <App><Bezpecnostnizarizeni /></App>,
+  },
+  {
+    path: "instalace-a-zprovozneni-linek/",
+    element: <App><Instalaceazprovoznenilinek /></App>,
+  },
+  {
+    path: "elektroinstalace-v-prumyslu/",
+    element: <App><Elektroinstalacevprumyslu /></App>,
+  },
+  {
+    path: "smart-home-instalace/",
+    element: <App><Smarthomeinstalace /></App>,
+  },
+  {
+    path: "zahranicni-spoluprace/",
+    element: <App><Zahranicnispoluprace /></App>,
   },
 ]);
 
