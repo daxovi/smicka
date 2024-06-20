@@ -1,32 +1,35 @@
 import React from 'react'
+import Gallery from '../components/Gallery';
 
 const Elektroinstalacevdomech = () => {
+    const images = [
+        "https://unsplash.it/660?random",
+        "https://unsplash.it/620?random",
+        "https://unsplash.it/680?random",
+        "https://unsplash.it/690?random",
+        "https://unsplash.it/600?random"
+    ];
+
     return (
         <div className="services--content">
             <div className="services--content-volt">
                 <h2>Profesionální Domovní Elektroinstalace pro Váš Domov</h2>
                 <p>
                     Chcete zajistit bezpečnost a spolehlivost Vaší elektroinstalace?
-                    </p>
-                    <h3>U nás jste na správném místě! Nabízíme:</h3>
-                    <p>
-
+                </p>
+                <h3>U nás jste na správném místě! Nabízíme:</h3>
+                <p>
                     <ul>
                         <li><strong>Kompletní elektroinstalační služby:</strong> Od návrhu po realizaci.</li>
                         <li><strong>Moderní technologie:</strong> Zajišťujeme nejnovější a nejefektivnější řešení.</li>
                         <li><strong>Bezpečnost na prvním místě:</strong> V souladu s nejvyššími standardy a předpisy.</li>
                         <li><strong>Zkušený tým odborníků:</strong> Profesionálové s dlouholetou praxí.</li>
                     </ul>
-                    </p>
+                </p>
+            </div>
+           
+        <Gallery images={images} />
 
-            </div>
-            <div className="services--gallery">
-                <img src="https://unsplash.it/660?random" alt="" />
-                <img src="https://unsplash.it/620?random" alt="" />
-                <img src="https://unsplash.it/680?random" alt="" />
-                <img src="https://unsplash.it/690?random" alt="" />
-                <img src="https://unsplash.it/600?random" alt="" />
-            </div>
             <div className="services--content-white">
                 <h3>
                     Proč si vybrat právě nás?

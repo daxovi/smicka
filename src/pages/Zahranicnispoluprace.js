@@ -1,6 +1,15 @@
 import React from 'react'
+import Gallery from '../components/Gallery';
 
 const Zahranicnispoluprace = () => {
+    const images = [
+        "https://unsplash.it/660?random",
+        "https://unsplash.it/620?random",
+        "https://unsplash.it/680?random",
+        "https://unsplash.it/690?random",
+        "https://unsplash.it/600?random"
+    ];
+
   return (
     <div className="services--content">
             <div className="services--content-volt">
@@ -37,13 +46,9 @@ const Zahranicnispoluprace = () => {
     </li>
 </ol>
 </div>
-<div className="services--gallery">
-                    <img src="https://unsplash.it/660?random" alt="" />
-                    <img src="https://unsplash.it/620?random" alt="" />
-                    <img src="https://unsplash.it/680?random" alt="" />
-                    <img src="https://unsplash.it/690?random" alt="" />
-                    <img src="https://unsplash.it/600?random" alt="" />
-                </div>
+
+<Gallery images={images} />
+
 <div className="services--content-white">
 
 <h3>Naše zkušenosti s mezinárodními projekty</h3>

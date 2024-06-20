@@ -1,0 +1,36 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    position: relative;
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.gallery .activeImg {
+    grid-row: 1;
+    grid-column: 1;
+    position: absolute;
+    object-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    animation: forwards img-reveal 0.3s;
+}
+
+@keyframes img-reveal {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

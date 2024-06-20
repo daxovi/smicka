@@ -10,7 +10,7 @@
 }
 
 .services--content h3 {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .services--content ol>li {
@@ -40,7 +40,7 @@
 .services--category {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 2em;
+    column-gap: 1.5em;
 }
 
 .services--category--tile {
@@ -94,16 +94,4 @@
 
 #smarthomeinstalace {
     background-image: url("../img/tiles/smarthomeinstalace.jpg");
-}
-
-.services--gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
-}
-
-.services--gallery img {
-    width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
 }
