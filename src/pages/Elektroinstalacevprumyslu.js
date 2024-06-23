@@ -1,13 +1,15 @@
 import React from 'react'
 import Gallery from '../components/Gallery'
 
+import img1 from "../img/reference/elektroinstalacevprumyslu_1.jpg"
+import img2 from "../img/reference/elektroinstalacevprumyslu_2.jpg"
+import img3 from "../img/reference/elektroinstalacevprumyslu_3.jpg"
+import img4 from "../img/reference/elektroinstalacevprumyslu_4.jpg"
+import img5 from "../img/reference/elektroinstalacevprumyslu_5.jpg"
+
 const Elektroinstalacevprumyslu = () => {
     const images = [
-        "https://unsplash.it/660?random",
-        "https://unsplash.it/620?random",
-        "https://unsplash.it/680?random",
-        "https://unsplash.it/690?random",
-        "https://unsplash.it/600?random"
+        img1, img2, img3, img4, img5
     ];
     
     return (
