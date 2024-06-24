@@ -1,5 +1,6 @@
 import React from 'react'
 import Gallery from '../components/Gallery';
+import { NavLink } from 'react-router-dom';
 
 import img1 from "../img/reference/montazevyrobnichlinek_1.jpg"
 import img2 from "../img/reference/montazevyrobnichlinek_2.jpg"
@@ -80,6 +81,12 @@ const Instalaceazprovoznenilinek = () => {
                     </li>
                 </ol>
             </div>
+
+            <nav>
+                <NavLink to="/kontakt" activeClassName="active">
+                    zjistěte jak můžeme pomoci vám
+                </NavLink>
+            </nav>
         </div>
 
     )

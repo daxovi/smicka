@@ -3,3 +3,12 @@
     background-color: white;
     padding: 1.5em;
 }
+
+.contact--content-white .two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact--content-white h3 {
+    margin: 0.8em 0;
+}

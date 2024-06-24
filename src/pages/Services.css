@@ -71,6 +71,14 @@
     text-decoration: none;
 }
 
+.services--content nav {
+    margin: 0;
+}
+
+.services--content nav a {
+    padding: 1em;
+}
+
 #bezpecnostnizarizeni {
     background-image: url("../img/tiles/bezpecnostnizarizeni.jpg");
 }

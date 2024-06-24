@@ -1,5 +1,6 @@
 import React from 'react'
 import Gallery from '../components/Gallery'
+import { NavLink } from 'react-router-dom'
 
 import img1 from "../img/reference/elektroinstalacevprumyslu_1.jpg"
 import img2 from "../img/reference/elektroinstalacevprumyslu_2.jpg"
@@ -11,7 +12,7 @@ const Elektroinstalacevprumyslu = () => {
     const images = [
         img1, img2, img3, img4, img5
     ];
-    
+
     return (
         <div className="services--content">
             <div className="services--content-volt">
@@ -64,6 +65,12 @@ const Elektroinstalacevprumyslu = () => {
                     <li><strong>Flexibilita a přizpůsobivost:</strong> Přizpůsobíme se specifickým požadavkům každého projektu.</li>
                 </ul>
             </div>
+
+            <nav>
+                <NavLink to="/kontakt" activeClassName="active">
+                    zjistěte jak můžeme pomoci vám
+                </NavLink>
+            </nav>
         </div>
     )
 }

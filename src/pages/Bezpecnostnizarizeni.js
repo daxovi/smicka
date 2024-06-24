@@ -1,5 +1,6 @@
 import React from 'react'
 import Gallery from '../components/Gallery';
+import { NavLink } from 'react-router-dom';
 
 import img1 from "../img/reference/bezpecnostnizarizeni_1.jpg"
 import img2 from "../img/reference/bezpecnostnizarizeni_2.jpg"
@@ -28,10 +29,10 @@ const Bezpecnostnizarizeni = () => {
                         </ul>
                     </li>
                     <li><strong>Profesionální Instalace:</strong>
-                    <ul>
-                        <li><strong>Zkušený tým odborníků:</strong> Naši technici mají více než 20 let zkušeností s instalací bezpečnostních systémů v různých prostředích.</li>
-                        <li><strong>Komplexní řešení:</strong> Zajišťujeme vše od návrhu systému až po jeho plnou realizaci a integraci.</li>
-                    </ul>
+                        <ul>
+                            <li><strong>Zkušený tým odborníků:</strong> Naši technici mají více než 20 let zkušeností s instalací bezpečnostních systémů v různých prostředích.</li>
+                            <li><strong>Komplexní řešení:</strong> Zajišťujeme vše od návrhu systému až po jeho plnou realizaci a integraci.</li>
+                        </ul>
                     </li>
                     <li><strong>Nepřetržitý Dohled a Podpora:</strong>
                         <ul>
@@ -41,12 +42,12 @@ const Bezpecnostnizarizeni = () => {
                     </li>
                 </ol>
             </div>
-            
+
             <Gallery images={images} />
 
             <div className="services--content-white">
 
-            <h3>Naše dlouholeté zkušenosti</h3>
+                <h3>Naše dlouholeté zkušenosti</h3>
                 <ol>
                     <li><strong>Více než 20 let na trhu: </strong>
                         <ul>
@@ -55,10 +56,10 @@ const Bezpecnostnizarizeni = () => {
                         </ul>
                     </li>
                     <li><strong>Přizpůsobení na míru:</strong>
-                    <ul>
-                        <li><strong>Individuální přístup: </strong> Každý projekt přizpůsobíme vašim specifickým potřebám a požadavkům.</li>
-                        <li><strong>Flexibilita:</strong> Naše systémy jsou škálovatelné a mohou růst spolu s vašimi potřebami.</li>
-                    </ul>
+                        <ul>
+                            <li><strong>Individuální přístup: </strong> Každý projekt přizpůsobíme vašim specifickým potřebám a požadavkům.</li>
+                            <li><strong>Flexibilita:</strong> Naše systémy jsou škálovatelné a mohou růst spolu s vašimi potřebami.</li>
+                        </ul>
                     </li>
                     <li><strong>Certifikace a standardy:</strong>
                         <ul>
@@ -68,6 +69,11 @@ const Bezpecnostnizarizeni = () => {
                     </li>
                 </ol>
             </div>
+            <nav>
+                <NavLink to="/kontakt" activeClassName="active">
+                    zjistěte jak můžeme pomoci vám
+                </NavLink>
+            </nav>
         </div>
     )
 }
