@@ -35,3 +35,18 @@
       opacity: 1;
     }
   }
+
+  @media only screen and (max-width: 720px) {
+    .gallery-ref {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .gallery-ref {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery-ref img:nth-of-type(n+5) {
+      display: none;
+    }
+  }

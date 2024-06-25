@@ -37,3 +37,26 @@ nav {
     transition: all ease-out 0.2s;
   }
   
+  
+  @media only screen and (max-width: 720px) {
+    nav a {
+      padding: 1em 2em;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    nav a {
+      box-sizing: border-box;
+      width: 100%;
+      margin-top: 0;
+    }
+
+    nav a.active {
+      background-color: white;
+      outline: none;
+      transition: all ease-out 0.1s;
+      transform: none;
+      box-shadow: none;
+    }
+  
+  }

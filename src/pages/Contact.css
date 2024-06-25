@@ -12,3 +12,16 @@
 .contact--content-white h3 {
     margin: 0.8em 0;
 }
+
+@media only screen and (max-width: 720px) {
+    .contact--content-white {
+      width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .contact--content-white .two-columns {
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+    }
+  }

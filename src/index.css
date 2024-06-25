@@ -58,19 +58,6 @@ header img {
   margin-top: -4px
 }
 
-/* MARK: FOOTER */
-footer {
-  text-align: right;
-  color: var(--color-easy);
-  background: var(--color-black);
-  margin-top: 4em;
-  padding: 1em 0;
-}
-
-.social {
-  margin-left: 1.2em;
-}
-
 /* MARK: REFERENCE */
 .ref .markdown-container {
   display: grid;
