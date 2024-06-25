@@ -54,9 +54,14 @@ nav {
     nav a.active {
       background-color: white;
       outline: none;
-      transition: all ease-out 0.1s;
       transform: none;
       box-shadow: none;
     }
+
+    nav a:hover {
+      transform: none;
+      box-shadow: none;
+    }
+    
   
   }
