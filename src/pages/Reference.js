@@ -1,67 +1,33 @@
 import React from 'react'
 import GalleryRef from '../components/GalleryRef'
 
+import ref_0 from "../img/reference/ref_0.jpg";
+import ref_1 from "../img/reference/ref_1.jpg";
+import ref_2 from "../img/reference/ref_2.jpg";
+import ref_3 from "../img/reference/ref_3.jpg";
+import ref_4 from "../img/reference/ref_4.jpg";
+import ref_5 from "../img/reference/ref_5.jpg";
+import ref_6 from "../img/reference/ref_6.jpg";
+import ref_7 from "../img/reference/ref_7.jpg";
+import ref_8 from "../img/reference/ref_8.jpg";
+import ref_9 from "../img/reference/ref_9.jpg";
+import ref_10 from "../img/reference/ref_10.jpg";
+import ref_11 from "../img/reference/ref_11.jpg";
+import ref_12 from "../img/reference/ref_12.jpg";
+import ref_13 from "../img/reference/ref_13.jpg";
+
 const Reference = () => {
-  const images1 = [
-    "https://picsum.photos/600",
-    "https://picsum.photos/640",
-    "https://picsum.photos/650",
-    "https://picsum.photos/680",
-    "https://picsum.photos/660",
-    "https://picsum.photos/670",
-    "https://picsum.photos/690",
-    "https://picsum.photos/630",
-    "https://picsum.photos/620",
-    "https://picsum.photos/610",
-    "https://picsum.photos/730",
-    "https://picsum.photos/720",
-    "https://picsum.photos/710"
-  ]
-
-  const images2 = [
-    "https://picsum.photos/800",
-    "https://picsum.photos/840",
-    "https://picsum.photos/850",
-    "https://picsum.photos/880",
-    "https://picsum.photos/860",
-    "https://picsum.photos/870",
-    "https://picsum.photos/890",
-    "https://picsum.photos/830",
-    "https://picsum.photos/820"
-  ]
-
-  const images3 = [
-    "https://picsum.photos/808",
-    "https://picsum.photos/848",
-    "https://picsum.photos/858",
-    "https://picsum.photos/888",
-    "https://picsum.photos/868",
-    "https://picsum.photos/878",
-    "https://picsum.photos/898",
-    "https://picsum.photos/838",
-    "https://picsum.photos/828"
+  const ref = [
+    ref_0, ref_1, ref_2, ref_3, ref_4, ref_5, ref_6, ref_7, ref_8, ref_9, ref_10, ref_11, ref_12, ref_13
   ]
 
   return (
     <div className="services--content">
       <div className="services--content-white">
-        <h2>Reference 1</h2>
-        <p>Vítr skoro nefouká a tak by se na první pohled mohlo zdát, že se balónky snad vůbec nepohybují. Jenom tak klidně levitují ve vzduchu. Jelikož slunce jasně září a na obloze byste od východu k západu hledali mráček marně, balónky působí jako jakási fata morgána uprostřed pouště. Zkrátka široko daleko nikde nic, jen zelenkavá tráva, jasně modrá obloha a tři křiklavě barevné pouťové balónky, které se téměř nepozorovatelně pohupují ani ne moc vysoko, ani moc nízko nad zemí. Kdyby pod balónky nebyla sytě zelenkavá tráva, ale třeba suchá silnice či beton, možná by bylo vidět jejich barevné stíny - to jak přes poloprůsvitné barevné balónky prochází ostré sluneční paprsky.</p>
-
+        <h2>Reference</h2>
+        <p>Prohlédněte si naši fotogalerii, kde najdete ukázky našich realizovaných projektů a získáte představu o vysoké kvalitě a profesionalitě naší práce.</p>
       </div>
-      <GalleryRef images={images1} />
-      <div className="services--content-white">
-        <h2>Reference 2</h2>
-        <p>Vítr skoro nefouká a tak by se na první pohled mohlo zdát, že se balónky snad vůbec nepohybují. Jenom tak klidně levitují ve vzduchu. Jelikož slunce jasně září a na obloze byste od východu k západu hledali mráček marně, balónky působí jako jakási fata morgána uprostřed pouště. Zkrátka široko daleko nikde nic, jen zelenkavá tráva, jasně modrá obloha a tři křiklavě barevné pouťové balónky, které se téměř nepozorovatelně pohupují ani ne moc vysoko, ani moc nízko nad zemí. Kdyby pod balónky nebyla sytě zelenkavá tráva, ale třeba suchá silnice či beton, možná by bylo vidět jejich barevné stíny - to jak přes poloprůsvitné barevné balónky prochází ostré sluneční paprsky.</p>
-
-      </div>
-      <GalleryRef images={images2} />
-      <div className="services--content-white">
-        <h2>Reference 3</h2>
-        <p>Vítr skoro nefouká a tak by se na první pohled mohlo zdát, že se balónky snad vůbec nepohybují. Jenom tak klidně levitují ve vzduchu. Jelikož slunce jasně září a na obloze byste od východu k západu hledali mráček marně, balónky působí jako jakási fata morgána uprostřed pouště. Zkrátka široko daleko nikde nic, jen zelenkavá tráva, jasně modrá obloha a tři křiklavě barevné pouťové balónky, které se téměř nepozorovatelně pohupují ani ne moc vysoko, ani moc nízko nad zemí. Kdyby pod balónky nebyla sytě zelenkavá tráva, ale třeba suchá silnice či beton, možná by bylo vidět jejich barevné stíny - to jak přes poloprůsvitné barevné balónky prochází ostré sluneční paprsky.</p>
-
-      </div>
-      <GalleryRef images={images3} />
+      <GalleryRef images={ref} />
     </div>
   )
 }

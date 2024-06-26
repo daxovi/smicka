@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../img/logo.svg';
 import logoalternate from '../img/logo-alternate.svg';
 import { useState, useEffect } from "react";
+import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {  
@@ -15,7 +16,9 @@ const Header = () => {
         </div>
       </div>
     <div className='container'>
-        <img src={logo} alt="" srcset="" width={300} />
+    <NavLink to="/" activeClassName="active">
+        <img src={logo} alt="Smička elektroinstalace logo" width={300} />
+        </NavLink>
     </div>
     </header>
   )

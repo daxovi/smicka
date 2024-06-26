@@ -12,7 +12,7 @@ const Gallery = ({ images }) => {
 
     return (
         <div className="gallery">
-            {activeImage !== null && (<img src={images[activeImage]} alt="" className='activeImg' onClick={() => setActiveImage(null)} />) }
+            {activeImage !== null && (<img src={images[activeImage]} alt="Reference Elektroinstalace Smička" className='activeImg' onClick={() => setActiveImage(null)} />) }
             {images.map((src, index) => (
                 <img
                     key={index}
