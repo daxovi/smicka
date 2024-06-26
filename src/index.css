@@ -58,51 +58,6 @@ header img {
   margin-top: -4px
 }
 
-/* MARK: REFERENCE */
-.ref .markdown-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  row-gap: 3em;
-  column-gap: 1.5em;
-}
-
-.ref h3 {
-  margin: 0;
-}
-
-.ref ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.ref li {
-  padding-bottom: 0.5em;
-}
-
-.ref p:has(img) {
-  display: grid;
-  gap: 0.8em;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between;
-  background-image: url("./img/thunder3.png");
-  background-position: 30%;
-  background-size: 30%;
-  justify-content: start;
-  height: fit-content;
-}
-
-.ref img {
-  width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.ref p {
-  margin: 0;
-}
-
-
 /* MARK: MEDIA */
 
 @media screen and (max-width: 1000px) {
